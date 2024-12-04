@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>work</title>
+  <link href="https://cdn.jsdelivr.net/gh/sun-typeface/SUIT@2/fonts/variable/woff2/SUIT-Variable.css" rel="stylesheet">
+  <link rel="stylesheet" href="./item.css">
+  <script src="./item.js"></script>
+</head>
+<body>
+  <div id="main">
+    <div id="content">
+      <h2>이것은 현실인가</h2>
+      <div class="caption">
+        <p>2023.06</p>
+        <p>Oil on canvas</p>
+        <p>15x15 / 22x27cm</p>
+      </div>
+
+      <!-- Gallery -->
+      <div class="gallery">
+        <button class="arrow left-arrow" onclick="changeSlide(-1)">&#9664;</button>
+        <div class="gallery-items">
+          <img src="./images/5_1.jpg" alt="work" class="responsive-media gallery-item" onclick="openInNewWindow(this.src)">
+          <img src="./images/5_2.jpg" alt="work" class="responsive-media gallery-item" onclick="openInNewWindow(this.src)">
+          <img src="./images/5_3.jpg" alt="work" class="responsive-media gallery-item" onclick="openInNewWindow(this.src)">
+          <img src="./images/5_4.jpg" alt="work" class="responsive-media gallery-item" onclick="openInNewWindow(this.src)">
+          <img src="./images/5_5.jpg" alt="work" class="responsive-media gallery-item" onclick="openInNewWindow(this.src)">
+        </div>
+        <button class="arrow right-arrow" onclick="changeSlide(1)">&#9654;</button>
+      </div>
+
+      <div class="note">
+        <p>
+          사실적으로 그려진 그림은 나의 현실 공간과 그림의 공간이
+          <br>
+          하나로 연결되며, 점차 생각 속에 잠기는 상태로 이끌어 준다.
+          <br>
+          이 과정은 현실과 그림의 공간에 대해 다시 생각해 보게 만드는 계기가 됐다.
+        </p>
+        <br>
+        <p>작품은 각각의 조각들로 구성되어 있으며, 두 가지 의미로 나뉠 수 있다.</p>
+        <br>
+        <p>첫 번째는 표면적으로 드러나는 시각에 관한 이야기이다.<br>각 조각들은 나의 공간과 시점을 표현하며, 내가 경험하는 현장을 공유할 수 있는 매개체가 된다.</p>
+        <br>
+        <p>
+          두 번째 의미는 사실적인 그림에 대한 고찰이다.
+          <br>
+          공간의 일부를 사실적으로 표현함으로써, 현실과 일치할 수 있는 가능성을 지니고 있다.
+          <br>
+          그렇다면 이 그림의 공간을 현실이라 볼 수 있는지에 대한 의문을 남기게 된다.
+        </p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
